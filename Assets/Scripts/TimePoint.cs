@@ -62,7 +62,7 @@ public class TimePoint : MonoBehaviour
         while (timePoint > 0)
         {
             yield return new WaitForSeconds(5);
-            timePoint -= 10;
+            timePoint -= 50;
             UpdateTimePointText();
         }
     }
